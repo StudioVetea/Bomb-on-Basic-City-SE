@@ -1,0 +1,293 @@
+Samedi 3 Mars 2018 - Version 1.1
+================================
+- Désormais les versions Debug auront leur numero affiché à la sélection des langues.
+- Correction d'un Bug de rémanence des sprites de "Hit Combo" après une victoire de Zone.
+- Correction visuelle du sol dans la Zone 6B.
+- Correction syntaxique des apostrophes.
+- Refection animation sprite et aspect des unités C++.
+- Désormais en mode Un joueur, chaque unité ennemie morte combat sera remplacé en jeu en guise de renfort sans dépasser le nombre d'unité par Zone.
+- Les HighScore des Zones ont été revu à la hausse.
+- Refection du Bombardier de Papi quand il monte.
+
+Dimanche 4 Mars 2018 - Version 1.2
+===================================
+- Correction du Bug du mode zombi Actif dans l'Ile tropicale.
+- Correction d'un Bug de Palette quand le Bombardier de Papi Monte en même temps qu'il a un Victoire dans une Zone en mode 1 joueur.
+- Amélioration du moteur d'inertie pour limiter des blocs en suspend sans trop de lag.
+- Recadrage texte "Entrez votre code".
+- Résolution d'un bug de couleur quand une Zone est terminée.
+- Désormais, le Bombardier est correctement animé en phase de montée.
+- Désormais lors d'un Bonus de Montée, le Bombardier montera automatiquement.
+- Correction d'un Bug de langue lors d'une victoire de Zone.
+- Les Zombis n'infligeront qu'un seul dégat au bombardier lors de leur saut.
+- Résolution d'un Bug de Palette dans la Zone de l'ile avec le mode Zombi.
+- Refonte du Bombardier de Papi Commando dans toutes les phases du jeu.
+- Ajout d'une animation pour le Bombardier de Papi lors d'un défaite.
+
+Dimanche 4 Mars 2018 - Version 1.2A
+====================================
+- Correction d'un Bug sur le bombardier de Papi Lors d'une victoire de Zone.
+- Réfection du sprite du Bombardier de Papi en phase de montée.
+- Suppression de l'icone 2 joueur après un Gameover/Partie gagnée.
+
+
+Version 1.3
+===========
+- Corrections orthographiques diverses.
+- Correction du glitche de la mouette avec le Bombardier de Mamie.
+- Correction d'un Bug qui empêchait d'utiliser le bonus de montée avec le Bombardier de Mami.
+- Amélioration de la planche de sprite du Bombardier de Mami avec ajout d'animation ( Montée, Défaite, Victoire )
+- Désormais, la phase de décollage sera automatique, le joueur pourra la zapper en appuyant sur A/B/C/START.
+- Ajout d'un Timer de jeu, pour pimenter les compétitions entre joueur en ligne.
+
+Version 1.4
+============
+- Réduction du nombre de nuage pour réduire les défauts de clignotement.
+- Gestion des meilleurs temps en fonction de la difficulté.
+- Indication du mode de difficulté lors d'une victoire.
+- Intégration de nouvelles musiques pour les Zone bonus.
+- Désormais le mode 2 joueurs débloquera toutes les zones prévues à cet effet, permettant aux joueurs de s'affronter sans avoir à débloquer les Zones 2 joueurs en mode 1 joueur.
+- Le Mode 2 joueur associé au Mode Zombi verra les Zones en mode 2 joueurs avec uniquement des Zombis, hormis les Zones Bonus qui garderont leur unité d'origine. Les Icones du mode Zombi sera affichées à côté des Icones du mode 2P pour signaler les zones infestées par les Zombis.
+
+Version 1.4A
+============
+- Résolution d'un Bug sur le Bombardier de Mami en mode 2 joueurs, lorsque le joueur 1 perd.
+- Résolution d'un Bug mettant en défaut la victoire du joueur 1 en mode 2 joueurs, si le mode "Unité invincible" est en OFF.
+- Si le Mode 2 joueurs est activé et en cours de jeu, le mode "Unités invincibles" sera désactivé. Le statut du mode "Unités Invincibles" sera sauvegardé pour un mode 1 joueur.
+
+Version 1.5
+===========
+- Refonte du Sprite Bonus "Montée" plus fidèle à son rôle.
+- Correction de l'intitulé des Zones lors d'un Record battu.
+- Résolution d'un Bug de l'affichage du meilleur temps/Zone.
+- Désormais, les parties démarreront immédiatement après un décollage.
+- Désormais, les Zones Bonus seront vérrouillées à l'instar des autres Zones.
+
+Version 1.5A
+============
+- Correction des Bugs de blocage des Zones Bonus sur l'écran de zone.
+- Augmentation du gain des digits.
+- Optimisation taille de la ROM.
+- Révision des 4 canaux de chaque digit.
+
+Version 1.6
+===========
+- Correction orthographique de la version Anglaise.
+- Désormais les HiScore seront mise à jour au même titre que les meilleurs temps dès la réussite d'une Zone.
+- Désormais les meilleurs temps seront affichés à titre informatif, lors d'une Victoire de Zone.
+- Désormais, le chrono sera bien arrêté après une victoire du joueur No1.
+- Désormais, en mode 2 joueurs, après la victoire du joueur No2, il faudra appuyer sur Start pour retourner à l'écran de sélection de Zone.
+- Le temps de réapparition des unités C++ a été réduit.
+- Optimisation du code.
+
+Version 1.6A
+=============
+- Correction orthographique de la version Anglaise.
+- Optimisation de la gestion de l'inertie des blocs.
+- Désormais la difficulté sera impliqué dans le temps de réapparition des unités.
+
+Version 1.7
+===========
+- Intégration nouvelle musique : Zone 3.
+- Désormais, l'écran des challenges aura sa propre musique.
+- Optimisation code.
+
+Version 1.7A
+============
+- Résolution d'un Bug d'icone du mode Zombi en mode 1 joueur.
+- Modification du moteur d'inertie ( Prototype ).
+- Optimisation code.
+- Résolution d'un Bug sur la gestion des Bombes Percantes ( Rappel : B pour lancer la super Bombasse/Bombe Normale, A & C pour lancer la Bombe percante/Bombe Normale )
+- Résolution d'un Bug qui augmentait la vitesse d'animation du curseur du joueur No2 en mode 2 joueur.
+- Amélioration de l'explosion des blocs.
+
+Version 1.7B
+============
+- Uniformisation de certain texte.
+- Suppression de la musique de l'écran Challenge.
+- Optimisation code.
+
+Version 1.8
+===========
+- Correction annotation Bonus Score.
+- Correction annotation Challenges.
+- Résolution d'un Bug sur l'affichage des icones Zombis en mode 2 joueurs quand l'un des deux joueurs gagnent une des Zones Bonus.
+- Résolution d'un Bug après la reprise d'une Pause en jeu, ou l'appui continu sur HAUT ou BAS fige une bombe en cours de larguage.
+
+Version 1.8A
+============
+- Correction du centrage du ballon des Bonus.
+- Retouche des Nuages.
+- Correction d'un Glitche sur une Frame du Bombardier, après la destruction du dernier bloc de la Victoire.
+- Désormais le Bonus de montée donnera lieu à un scrolling vertical au lieu d'un déplacement vertical du Bombardier pour garder le Bombardier toujours en vue de l'écran du jeu.
+
+Version 1.8B
+============
+- Amélioration et optimisation du moteur d'inertie.
+- Résolution d'un Bug qui coupait le son du moteur au décollage lors d'un Orage.
+- Suppression des Glitches lors des changements de phase des Bombardiers ( Montée, Victoire, etc ... )
+- Désormais les unités n'auront pas de renfort lors d'un Game Over.
+
+Version 1.9
+===========
+- Désormais, les unités Bonus auront une petite animation de victoire lors d'une défaite du joueur.
+- Modification de la Zone Commodore.
+
+Version 1.9A
+============
+- Désormais, lors d'une victoire ou de défaite du Joueur 1, les unités C++ s'éclipseront.
+- Désormais lors d'un GameOver, une partie des unités fêteront ça et d'autres s'éclipseront, pour éviter les clignotements de sprite.
+- Refonte de la planche de sprite des Zombis.
+- Désormais les Zombis auront leur animation de victoire.
+- Augmentation du taux de montée lors du Bonus.
+
+Version 2.0
+===========
+Demo Papi Commando Tennis :
+- Mise en place de la Demo de Papi Commando Tennis !
+- Correction orthographique de Papi Tennis.
+- Mise en place du mode 2 joueurs de Papi Tennis.
+- Amélioration de l'IA
+BOBC SE:
+- Ajout d'une petite animation pendant le menu de Sélection de jeu.
+
+Version 2.0A
+============
+Demo Papi Commando Tennis :
+- Correction d'un soucis avec l'entrainement du Robot.
+- Centrage de la sélection de langue.
+
+Version 2.0B
+============
+Demo Papi Commando Tennis :
+- Refonte des juges de ligne et Juge arbitre.
+- Refonte des bulles de dialogue du Juge arbitre.
+- Refonte du bordereau des crédits.
+
+Version 2.0C
+============
+Demo Papi Commando Tennis :
+- Allongement du saut du joueur P1.
+- Amélioration de l'IA.
+- Petite animation du Doc lors d'un coup gagné ou perdu.
+- Ajout d'animation lors des déplacements des 2 joueurs.
+- Gestion dynamique de la Fatigue des 2 joueurs.
+
+Version 2.1
+===========
+Demo Papi Commando Tennis :
+- Désormais le texte en pause est en priorité haute.
+- Ajout d'une option dans le menu permettant de retourner au choix de jeu.
+- Debuggage du Bordereau des Crédits.
+- Ajout d'une animation de fatigue lorsque les joueurs sont éreintés.
+BOBC SE:
+- Ajout d'une option dans le menu permettant de retourner au choix de jeu.
+- Désormais, après un Bonus de Montée, le Bombardier ne descendra pas jusqu'au prochain passage.
+- Résolution d'un Bug de décalage des unités lors d'une victoire lorsque celles ci s'enfuyaient.
+
+
+Version 2.1A
+============
+Demo Papi Commando Tennis :
+- Ajustement IA.
+BOBC SE:
+- Initialisation correcte des Challenges et mode après un retour menu.
+
+Version 2.1B
+============
+- Résolution de Glitches majeurs sur console MD Tectoy.
+Demo Papi Commando Tennis :
+- Ajustement IA.
+- Correction bordereau en langue ENG.
+
+Version 2.1C
+============
+- Initialisation correcte de la Pause après un retour menu.
+BOBC SE :
+- Résolution d'un Glitch rémanent après une partie en 2 joueurs, on l'on voyait l'icone 2P dans le menu principal.
+
+Version 2.2
+============
+- Initialisation du choix de langue à chaque changement de jeu.
+Demo Papi Commando Tennis:
+- Mise en place du mode Match en 1 set gagnant ( Toujours en travaux !! ).
+- Ajout d'un menu "Mode Match" en plus des autres modes de jeu.
+- Refonte de la police de caractère.
+BOBC SE:
+- Résolution d'un Bug provoquant le Crash du Bombardier dès le démarrage de la Zone 4.
+- Ajout d'un code DEBUG (1234) pour débloquer les toutes les Zones et des codes simplifiés pour les Challenges. Il sera supprimé lors de la ROM finale.
+
+
+Version 2.2A
+=============
+- Corrections orthographiques ENG/FR.
+BOBC SE:
+- Correction d'un problème de rebouclage de musique de l'écran des Challenges dans le menu principal.
+- Refonte de la Zone 4 qui devient : Le Trésor Japonais.
+- Ajout d'une nouvelle unité pour la zone 4 : Le terrible Romario !
+- La Zone 4 ne sera plus remplacé par le mode Zombi.
+- Nouvelle musique dans la zone 4.
+Demo Papi Commando Tennis:
+- Correction d'un BUG faisant disparaitre/Apparaitre les icones de langues si appui continu sur BAS.
+- Nouvelle musique du Menu principal.
+- Ajout des voix du juge Arbitre.
+- Poursuite du mode Match en 1 joueur, le mode 2 joueurs n'étant pas encore finalisé. Ce mode est toujours en WIP !!
+
+Version 2.2B
+=============
+Demo Papi Commando Tennis :
+- Correction d'un Bug du juge arbitre qui ne regardait pas le joueur au service.
+- Correction d'un Bug de service de l'IA en Mode Match.
+- Nouvel écran de Menu principal.
+- Résolution de différents bug du Mode Match contre l'IA.
+- Refonte du sprite du Doc.
+- Ajout d'applaudissements lors de points gagnés.
+BOBC SE :
+- Refonte du personnage Romario de la Zone 4.
+
+
+Version 2.2C
+=============
+BOBC SE:
+- Correction de la HitBox des canons de la zone 10.
+Demo Papi Commando Tennis:
+- Correction d'un problème d'initialisation entre les modes de jeu.
+- Tous les deux jeux, affichage du résumé du score sur le Panneau d'information et pause.
+- Modification de l'écran des commandes.
+- Modification du Court Central.
+- Ajout du public dans les tribunes.
+- Finalisation du Mode Match en 1 set gagnant sans Tie Break ( 2 jeux d'écart ) pour le mode Match contre l'IA.
+- Intégration du mode "provocation" avec le bouton C avec un rire de vieux pour Papi.
+
+Version 2.3
+===========
+- Mise en revue des personnages du jeu dans le menu des jeux.
+Demo Papi Commando Tennis:
+- Gestion provocation du joueur 2 "Barber DOC".
+- Gestion Match en mode 2 joueurs.
+
+Version 2.3A
+============
+Demo Papi Commando Tennis:
+- Paramétrage Gameplay.
+- Quand une balle sera faute, le sprint sera désactivé pour les deux joueurs.
+- Résolution d'un Bug sur l'écart des points de jeu quand un Match est gagné.
+
+Version 2.3B
+============
+Demo Papi Commando Tennis:
+- Correction Bugs de comptage des points.
+- Ajout d'information de partie en mode Match ( Ace, Break Point, Match Point).
+- Nouveaux paramétrages Gameplay.
+- Ajout de bruit de foule et d'ambiance lors des balles de Break, Match et sauts joueurs.
+
+
+
+
+
+
+
+
+
+
+

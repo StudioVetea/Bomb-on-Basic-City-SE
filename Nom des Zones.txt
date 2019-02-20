@@ -1,0 +1,10 @@
+1 - Quartier résidentiel
+2 - La Demeure Familiale
+3 - Les Monuments ZX
+4 - La Quartier Vieux
+5 - Les Monuments Jobs
+6 - Le Cargo POO-C#
+7 - Les Monuments ST
+8 - Le Vieux Manoir
+9 - Les Pipelines
+10 - Les Bunkers
